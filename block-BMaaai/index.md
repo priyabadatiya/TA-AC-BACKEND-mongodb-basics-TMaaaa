@@ -56,7 +56,6 @@ mongoexport --db state --collection cities --out ~/Desktop/states/city.json --js
 Export `users` collection from `test` database onto `Desktop` in a file named `exported.json`.
 
 #### Import from csv file
-
 ```
 mongoimport -d DB_NAME -c COLLECTION_NAME --type csv --file elections.csv(file location) --headerline(including header)
 ```
